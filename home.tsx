@@ -35,6 +35,41 @@ export default function Component() {
           </div>
         </section>
         
+        <section className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+          <Card>
+            <CardHeader>
+              <CardTitle className="flex items-center">
+                <Globe className="mr-2 h-5 w-5" /> Recursos Globales
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <CardDescription>Descubre y comparte recursos para proyectos de ODS.</CardDescription>
+              <Button className="mt-4" variant="outline">Explorar Recursos</Button>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardHeader>
+              <CardTitle className="flex items-center">
+                <Users className="mr-2 h-5 w-5" /> Colaboración
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <CardDescription>Conéctate con socios y trabaja en iniciativas de ODS.</CardDescription>
+              <Button className="mt-4" variant="outline">Unirse al Foro</Button>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardHeader>
+              <CardTitle className="flex items-center">
+                <BarChart className="mr-2 h-5 w-5" /> Seguimiento de Progreso
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <CardDescription>Monitorea y reporta tus esfuerzos de implementación de ODS.</CardDescription>
+              <Button className="mt-4" variant="outline">Ver Dashboard</Button>
+            </CardContent>
+          </Card>
+        </section>
     </div>
   )
 }
