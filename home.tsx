@@ -23,6 +23,18 @@ export default function Component() {
         </div>
       </header>
 
+      <main className="container mx-auto px-4 py-12">
+        <section className="text-center mb-16">
+          <h1 className="text-4xl font-bold mb-4">Bienvenido a Alliance Causas</h1>
+          <p className="text-xl mb-8">Colabora para alcanzar los Objetivos de Desarrollo Sostenible</p>
+          <div className="flex justify-center">
+            <Input className="max-w-sm mr-2" placeholder="Buscar recursos, proyectos o conexiones" />
+            <Button>
+              <Search className="mr-2 h-4 w-4" /> Buscar
+            </Button>
+          </div>
+        </section>
+        
     </div>
   )
 }
